@@ -4,7 +4,7 @@ lua require("lazy-bootstrap").bootstrap()
 lua require("lazy").setup("plugin-list")
 
 " colorscheme nightfox
-set background=light
+set background=dark
 colorscheme gruvbox
 
 set number
