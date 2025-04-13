@@ -1,11 +1,26 @@
 fish_add_path ~/.cargo/bin
 fish_add_path ~/.local/share/fnm
+fish_add_path ~/.krew/bin
 
 eval (fnm env)
 
 set fish_greeting
 
 alias compose='docker compose'
+
+alias kc='kubectl'
+
+alias checkout='git checkout'
+alias sw='git switch'
+alias commit='git commit'
+alias add='git add'
+alias push='git push'
+alias pull='git pull'
+alias fetch='git fetch'
+alias cherry-pick='git cherry-pick'
+alias remote='git remote'
+alias merge='git merge'
+alias rebase='git merge'
 
 function fish_prompt
 	echo -n (pwd |
