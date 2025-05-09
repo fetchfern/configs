@@ -46,7 +46,7 @@ font-family = "Iosevka Custom Medium"
 adjust-cell-height = 10%
 shell-integration-features = no-cursor
 
-command = /usr/bin/fish --login --interactive
+command = /opt/homebrew/bin/fish --login --interactive
 
 cursor-style = block
 cursor-style-blink = false
@@ -54,7 +54,7 @@ cursor-style-blink = false
 mouse-scroll-multiplier = 0.8
 window-padding-x = 1
 window-padding-y = 5
-window-decoration = none
+#window-decoration = none
 window-padding-color = background
 window-inherit-working-directory = true
 

@@ -1,6 +1,8 @@
 fish_add_path ~/.cargo/bin
 fish_add_path ~/.local/share/fnm
+fish_add_path ~/.local/bin
 fish_add_path ~/.krew/bin
+fish_add_path /opt/homebrew/bin
 
 eval (fnm env)
 
@@ -59,3 +61,6 @@ function cd --description "Change directory"
 
     return $cd_status
 end
+
+# Created by `pipx` on 2025-05-08 01:24:45
+set PATH $PATH /Users/fetch/.local/bin
